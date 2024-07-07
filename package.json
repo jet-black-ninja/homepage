@@ -1,0 +1,19 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "homepage of work done",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jet-black-ninja/homepage.git"
+  },
+  "author": "jet_black_ninja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jet-black-ninja/homepage/issues"
+  },
+  "homepage": "https://github.com/jet-black-ninja/homepage#readme"
+}
