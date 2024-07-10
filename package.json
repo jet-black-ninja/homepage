@@ -4,7 +4,9 @@
   "description": "homepage of work done",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/jet-black-ninja/homepage/issues"
   },
-  "homepage": "https://github.com/jet-black-ninja/homepage#readme"
+  "homepage": "https://github.com/jet-black-ninja/homepage#readme",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
