@@ -22,7 +22,6 @@ footer, header, hgroup, menu, nav, section {
 img.icon,
 svg{
     height:24px;
-    width:24px;
     transition: transform 0.2s ease-in-out;
     user-select: none;
     fill:var(--accent-color);
@@ -84,7 +83,7 @@ header{
     padding: 1.5rem 4rem;
     display: flex; 
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .about-text{
     margin-top: 10px;
@@ -146,8 +145,9 @@ gap:25px;
 }
 
 .cards:hover{
-    scale: 1.25;
+    scale: 1.15;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0,0,0 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    z-index: 3;
 }
 
 .project-name{
@@ -172,9 +172,15 @@ gap:25px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
 }
+.cards img.icon{    
+    width: 50%;
+    border-radius: 5px 5px 0px 0px;
+}
+
 
 .text{
     padding: 1em;
+    
 }
 
 .first-line{
@@ -209,7 +215,11 @@ footer{
 .f-left{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
+}
+.f-left p{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .f-right{
