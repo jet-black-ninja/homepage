@@ -5,11 +5,15 @@ const observer = new IntersectionObserver((entries =>{
         if(entry.isIntersecting){
             if(entry.target.id === "img1")
                 entry.target.classList.add('showImg1')
+            else if(entry.target.id==="img2")
+                entry.target.classList.add('showImg2')
             else 
                 entry.target.classList.add('show')
         }else{
             if(entry.target.id === 'img1')
                 entry.target.classList.remove('showImg1');
+            else if(entry.target.id==="img2")
+                entry.target.classList.remove('showImg2')
             else
                 entry.target.classList.remove('show');
         }
